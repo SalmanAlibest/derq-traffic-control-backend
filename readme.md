@@ -20,7 +20,7 @@ npm install
 ### Environment Setup
 Create a `.env` file in the root of the project:
 ```env
-PORT=5000
+PORT=3000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
@@ -44,7 +44,7 @@ docker build -t derq-traffic-control-backend .
 ```
 #### 2. Run Docker Container
 ```bash
-docker run -p 5000:5000 --env-file .env derq-traffic-control-backend
+docker run -p 3000:3000 --env-file .env derq-traffic-control-backend
 ```
 ---
 ### Features
