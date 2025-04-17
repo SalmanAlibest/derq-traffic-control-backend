@@ -53,5 +53,3 @@ docker run -p 3000:3000 --env-file .env derq-traffic-control-backend
 - Docker-ready
 ---
 
-React
-
